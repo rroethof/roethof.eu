@@ -1,0 +1,29 @@
+languageCode = "nl-nl"
+defaultContentLanguage = "nl"
+enableRobotsTXT = true
+enableEmoji = true
+
+theme = "almeida-cv"
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
+
+baseURL = "https://roethof.eu/"
+title = "Ronny Roethof"
+#googleAnalytics = ""
+
+[params]
+enableMetaTags = true
+colorLight = "#fff"
+colorDark = "#666"
+colorPageBackground = "#ddd"
+colorPrimary = "#98D2EB"
+colorSecondary = "#aaa"
+colorIconPrimary = "#fff"
+colorIconBackground = "#98D2EB"
+colorRightColumnBackground = "#f5f5f5"
+colorRightColumnHeadingText = "#666"
+colorRightColumnBodyText = "#666"
+colorRightColumnIconPrimary = "#fff"
+colorRightColumnIconBackground = "#98D2EB"
+pages = 4
+# Set this param to 'true' to swap the bar positions
+swapColumns = false

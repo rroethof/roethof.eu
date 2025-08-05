@@ -1,0 +1,86 @@
+// WIDTHS
+$width-left-col: 75rem; // 70%
+$page-width: 100rem;
+$width-right-col: $page-width - $width-left-col;
+
+// ANIMATIONS
+$cubic: 0.63, 0.21, 0.76, 1.58;
+
+
+.content {
+    // A4 paper
+    width: $page-width;
+    min-height: paper_height($page-width);
+    background-color: $color-light;
+
+    @media screen and (min-width: 60rem) {
+        margin: 6rem 0;
+        @include shadow(1);
+        @include hz-center;
+    }
+    @media print {
+        margin: 0;
+        // height: paper_height($page-width) * $pages;
+        height: auto;
+    }
+}
+
+@media print {
+    @page {
+        margin: 0;
+        size: A4;
+    }
+}
+
+@media print {
+    #references { /* Gebruik de ID selector #references */
+        display: none !important; /* Weg met die handel op de print! */
+    }
+}
+
+.content {
+    position: absolute;
+    overflow: hidden;
+
+    &__left {
+        float: left;
+        width: $width-left-col;
+        height: 100%;
+        padding: 3rem 4rem;
+
+        @media screen {
+            &::after {
+                content: '';
+                height: 4rem;
+                width: 100%;
+                position: absolute;
+                bottom: 0.5rem;
+                color: darken($color-light, 10%);
+            }
+        }
+    }
+
+    &__right {
+        position: absolute;
+        float: right;
+        width: $width-right-col;
+        background-color: $color-right-col-background;
+        color: $color-right-col-body-text;
+        height: 100%;
+        padding: 2rem 3rem;
+        right: 1rem;
+
+        @include shadow(0.5);
+    }
+
+    &__swapped {
+        &__left {
+            float: right;
+        }
+
+        &__right {
+            float: left;
+            left: 1rem;
+        }
+    }
+}
