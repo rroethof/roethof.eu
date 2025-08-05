@@ -1,0 +1,26 @@
+[profile]
+other = "Profiel"
+
+[experience]
+other = "Ervaring"
+
+[education]
+other = "Opleiding"
+
+[references]
+other = "Referenties"
+
+[skills]
+other = "Vaardigheden"
+
+[languages]
+other = "Talen"
+
+[diplomas]
+other = "Certificeringen"
+
+[interests]
+other = "Interesses"
+
+[certifications]
+other = "Certificaten"

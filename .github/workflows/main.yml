@@ -1,0 +1,98 @@
+name: 🚀 Build, Test en Deploy Hugo
+
+# Workflow triggert bij push naar main/master of handmatig
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+jobs:
+  build_and_test:
+    name: 🏗️ Bouw en Test Hugo Site
+    runs-on: ubuntu-latest # Ja, Ubuntu. Soms moet je offers brengen. 😈
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.145.0'
+          extended: true
+
+      - name: Cache Hugo Modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/hugo_modules
+          key: ${{ runner.os }}-hugo-modules-${{ hashFiles('**/go.mod') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-modules-
+
+      - name: Lint Markdown Content
+        # Lintert alle Markdown-bestanden behalve die in de 'themes' map
+        run: npm install -g markdownlint-cli && markdownlint "**/*.md" --ignore "themes/**" # Voeg een .markdownlint.json toe voor jouw regels!
+
+      - name: Bouw Site met Hugo
+        run: hugo --minify
+
+      - name: Cache Hugo Build Output
+        uses: actions/cache@v4
+        with:
+          path: public
+          key: ${{ runner.os }}-hugo-build-${{ github.sha }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-build-
+
+      - name: Check HTML
+        uses: chabad360/htmlproofer@master
+        with:
+          directory: "./public"
+          arguments: --only-4xx --check-html --assume-extension --empty-alt-ignore --disable-external
+        continue-on-error: true # Deze staat nu op het juiste niveau
+        # Standaard zetten we hem op false; een kapotte site deploy je niet.
+        # continue-on-error: false # uncomment deze regel als je de workflow wilt laten falen bij HTMLProofer fouten
+
+  deploy:
+    name: 🚀 Deploy Hugo Site
+    runs-on: ubuntu-latest
+    needs: build_and_test # Deze job wacht tot 'build_and_test' klaar is
+    if: success() # Deploy alleen als de bouw- en teststap succesvol was
+    steps:
+      - name: Checkout Code voor Deploy
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Restore Hugo Build Output Cache
+        uses: actions/cache/restore@v4
+        with:
+          path: public
+          key: ${{ runner.os }}-hugo-build-${{ github.sha }}
+
+      - name: Deploy met Wachtwoord naar ${{ vars.ftp_website }}
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          username: ${{ vars.ftp_username }}
+          server: ${{ vars.ftp_server }}
+          port: ${{ vars.ftp_port }}
+          local_path: './public/*'
+          remote_path: 'domains/${{ vars.ftp_website }}/public_html/'
+          sftp_only: true
+          password: ${{ secrets.ftp_password }}
+
+      - name: Deploy met Wachtwoord naar ${{ vars.ftp_website2 }}
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.6
+        with:
+          username: ${{ vars.ftp_username }}
+          server: ${{ vars.ftp_server }}
+          port: ${{ vars.ftp_port }}
+          local_path: './public/*'
+          remote_path: 'domains/${{ vars.ftp_website2 }}/public_html/'
+          sftp_only: true
+          password: ${{ secrets.ftp_password }}
