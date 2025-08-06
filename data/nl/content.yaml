@@ -463,10 +463,19 @@ Education:
     Date: 1993 – 1995
 
 Diplomas:
-  - "ITIL® Foundation (Issued Nov 2013)"
-  - "LPIC 101 (Issued Jan 2013)"
-  - "LPIC 102 (Issued Jan 2013)"
-  - "RHCSA 7 (Issued Jun 2016)"
+  - Course: "Red Hat Certified System Administrator (RHCSA 7)"
+    Organisation: Red Hat
+    Date: Jun 2016
+    Details: <a href="https://www.redhat.com/rhtapps/certification/verify/?certId=140-083-718&isSearch=False&verify=Verify" target="_blank">Credential ID 140-083-718</a>
+  - Course: "ITIL® Foundation Certificate in IT Service Management"
+    Organisation: EXIN
+    Date: Nov 2013
+  - Course: "LPIC 102, Linux Administration"
+    Organisation: Linux Professional Institute
+    Date: Jan 2013
+  - Course: "LPIC 101, Linux Administration"
+    Organisation: Linux Professional Institute
+    Date: Jan 2013
 
 Skills:
   - Family: Besturingssystemen
