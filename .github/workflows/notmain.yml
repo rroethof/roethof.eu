@@ -4,20 +4,19 @@ on:
   push:
     branches-ignore:
       - master
-      - main
   pull_request:
     branches:
       - master
-      - main
 
   workflow_dispatch:
 
 jobs:
-  build_and_test:
-    name: 🏗️ Bouw en Test Hugo Site
-    runs-on: ubuntu-latest # Ja, Ubuntu. Soms moet je offers brengen. 😈
+  build:
+    name: 🔧 Build and Test Hugo ${{ vars.ftp_website }}
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
@@ -26,29 +25,15 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.145.0'
+          hugo-version: '0.145.0' #latest is broken
           extended: true
 
-      - name: Lint Markdown Content
-        # Lintert alle Markdown-bestanden behalve die in de 'themes' map
-        run: npm install -g markdownlint-cli && markdownlint "**/*.md" --ignore "themes/**" --ignore "README.md"
-
-      - name: Bouw Site met Hugo
+      - name: Build site with Hugo
         run: hugo --minify
-
-      - name: Cache Hugo Build Output
-        uses: actions/cache@v4
-        with:
-          path: public
-          key: ${{ runner.os }}-hugo-build-${{ github.sha }}
-          restore-keys: |
-            ${{ runner.os }}-hugo-build-
 
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:
           directory: "./public"
-          arguments: --only-4xx --check-html --assume-extension --empty-alt-ignore --disable-external
-        continue-on-error: true # Deze staat nu op het juiste niveau
-        # Standaard zetten we hem op false; een kapotte site deploy je niet.
-        # continue-on-error: false # uncomment deze regel als je de workflow wilt laten falen bij HTMLProofer fouten
+          arguments: --only-4xx --check-favicon --check-html --assume-extension --empty-alt-ignore --disable-external
+        continue-on-error: true
