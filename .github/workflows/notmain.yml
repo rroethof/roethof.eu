@@ -39,7 +39,7 @@ jobs:
 
       - name: Lint Markdown Content
         # Lintert alle Markdown-bestanden behalve die in de 'themes' map
-        run: npm install -g markdownlint-cli && markdownlint "**/*.md" --ignore "themes/**" # Voeg een .markdownlint.json toe voor jouw regels!
+        run: npm install -g markdownlint-cli && markdownlint "**/*.md" --ignore "themes/**" --ignore "README.md"
 
       - name: Bouw Site met Hugo
         run: hugo --minify
