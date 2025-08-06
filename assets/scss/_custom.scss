@@ -2,6 +2,7 @@
 $width-left-col: 75rem; // 70%
 $page-width: 100rem;
 $width-right-col: $page-width - $width-left-col;
+$pages: 10; // Number of pages to print
 
 // ANIMATIONS
 $cubic: 0.63, 0.21, 0.76, 1.58;
@@ -20,7 +21,15 @@ $cubic: 0.63, 0.21, 0.76, 1.58;
     }
     @media print {
         margin: 0;
-        height: paper_height($page-width) * $pages;
+        // height: paper_height($page-width) * $pages;
+        height: auto;
+    }
+}
+
+@media print {
+    @page {
+        margin: 0;
+        size: A4;
     }
 }
 
