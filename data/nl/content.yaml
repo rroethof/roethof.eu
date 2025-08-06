@@ -20,7 +20,7 @@ Experience:
     Place: "DenBosch, Nederland"
     Positions:
       - Title: "CISO / Devops Engineer / Interne IT"
-        Date: "Juni 2024 – Heden"
+        Date: "jun 2024 – heden"
         Details: "Verantwoordelijk voor security, compliance en de interne IT-infrastructuur. Waarborg veilige en betrouwbare operaties."
         Detailssummup:
           - "Beheer informatiebeveiliging, privacy en data-integriteit. Ontwikkel, implementeer en onderhoud beleid."
@@ -43,7 +43,7 @@ Experience:
           - "ISO27002"
           - "NIS2"
       - Title: "Security Officer / Devops Engineer / Interne IT"
-        Date: "Juni 2022 – Juni 2024"
+        Date: "jun 2022 – jun 2024"
         Details: "Toezicht op interne IT en security certificeringen, inclusief veilige toegang. Implementatie automatisering en grootschalige Ansible deployments."
         Detailssummup:
           - "Verantwoordelijk voor interne IT: hardware, netwerk en software."
@@ -60,7 +60,7 @@ Experience:
           - "Huawei"
           - "Fortigate"
       - Title: "Security Consultant / Pentester"
-        Date: "Nov 2021 – Jun 2022"
+        Date: "nov 2021 – jun 2022"
         Details: "Verschillende securitytesten uitgevoerd: websites, infrastructuren en clientapplicaties. Resulteerde in veilige clientomgevingen."
         Badges:
           - "Kali Linux"
@@ -77,7 +77,7 @@ Experience:
     Place: "Bilthoven, Nederland"
     Positions:
       - Title: "Area Product Owner / Teamlead / Senior Systeem Engineer"
-        Date: "Okt 2020 – Nov 2021"
+        Date: "okt 2020 – nov 2021"
         Details: "Area Product Owner, Teamlead en Senior Engineer van het Specifieke Hosting team van SSC Campus. Het specifieke hosting team is onder andere verantwoordelijk voor de hosting diensten RIVM.nl en KNMI.nl. Een van de grote projecten van Specifieke Hosting is het Rijksvaccinatieprogramma met daarbij behorende Covid 19 vaccinatie registratie."
         Detailssummup:
           - "Ontwikkelde Ansible playbooks en roles volgens Infrastructure as Code en high availability principes, bijvoorbeeld voor het Vaccinatie Bewijzen programma."
@@ -85,7 +85,7 @@ Experience:
           - "Automatiseerde testuitvoering na code commits en infrastructuur deployment naar test en productie omgevingen."
           - "Project: Vaccinatiebewijs: Postgres cluster geautomatiseerd in Ansible, getest en verbeterd."
         Badges:
-          - "1000+ virtual servers"
+          - "1000+ virtuele servers"
           - "VMware"
           - "Red Hat"
           - "Ansible"
@@ -99,7 +99,7 @@ Experience:
     Place: "Vertrouwelijk, Nederland"
     Positions:
       - Title: "Developer / Senior Systeem Engineer"
-        Date: "Jul 2019 – Sep 2020"
+        Date: "jul 2019 – sep 2020"
         Details: "Werkte in een sterk beveiligde omgeving met focus op Public Key Infrastructure, data-encryptie en beveiligd computergebruik."
         Detailssummup:
           - "Ontwikkelde PHP Framework voor interne ontwikkeling."
@@ -110,7 +110,7 @@ Experience:
           - "Beheerde grote aantallen servers met behulp van Ansible."
           - "Gebruikte Ansible Tower voor geavanceerde automatisering workflows."
         Badges:
-          - "100+ virtual servers"
+          - "100+ virtuele servers"
           - "VMware"
           - "Red Hat"
           - "PHP"
@@ -123,7 +123,7 @@ Experience:
     Place: "Lelystad, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Mei 2017 – Juni 2019"
+        Date: "mei 2017 – jun 2019"
         Details: "Onderdeel van een 3-koppig team. Beheer van 500 fysieke hosting servers, 3500 virtuele machines en een 5 petabyte offsite back-upplatform."
         Detailssummup:
           - "Ontwierp en ontwikkelde Ansible playbooks en roles voor applicaties."
@@ -133,8 +133,8 @@ Experience:
           - "Implementeerde 24/7 monitoring en alerting."
           - "Ontwierp en implementeerde 'Autobackup', een eigen ontwikkelde FreeBSD ZFS-gebaseerde back-upoplossing."
         Badges:
-          - "500+ physical servers"
-          - "3500+ virtual servers"
+          - "500+ fysieke servers"
+          - "3500+ virtuele servers"
           - "CloudLinux"
           - "CentOS"
           - "Debian"
@@ -162,10 +162,10 @@ Experience:
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Jan 2017 – Mrt 2017"
+        Date: "jan 2017 – mrt 2017"
         Details: "Onderdeel van een 9-koppig team. Verantwoordelijk voor ontwerp en bouw van Operational Data Hub, deel van One Back Office platform."
         Badges:
-          - "100+ physical servers"
+          - "100+ fysieke servers"
           - "Red Hat"
           - "Ansible"
           - "Zookeeper"
@@ -180,10 +180,10 @@ Experience:
     Place: "Almere, Nederland"
     Positions:
       - Title: "Security Consultant"
-        Date: "Nov 2016 – Jan 2017"
+        Date: "nov 2016 – jan 2017"
         Details: "Voerde securitytesten uit op websites, infrastructuren en clientapplicaties. Gaf workshops aan collega's en klanten. Resulteerde in veilige clientomgevingen, hogere kennis en stabiele, veilige websites."
         Badges:
-          - "100+ virtual servers"
+          - "100+ virtuele servers"
           - "Kali Linux"
           - "Debian"
           - "Ubuntu"
@@ -194,10 +194,10 @@ Experience:
     Place: "Oostzaan, Nederland"
     Positions:
       - Title: "DevOps Engineer / Automatisering Specialist"
-        Date: "Aug 2016 – Nov 2016"
+        Date: "aug 2016 – nov 2016"
         Details: "Ontwikkelde een deployment systeem voor virtualisatie en in-house software producten. Klanteis: centraal platform op basis van Kickstart en Ansible om gehele virtualisatie platform op afstand eenvoudig te deployen en beheren."
         Badges:
-          - "10 physical servers"
+          - "10 fysieke servers"
           - "CentOS"
           - "Ansible"
           - "Citrix XenServer"
@@ -213,10 +213,10 @@ Experience:
     Place: "Almere, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Juni 2016 – Aug 2016"
+        Date: "jun 2016 – aug 2016"
         Details: "Behandelde diverse Linux/Unix en Open Source taken. Management en migraties van complexe klantplatformen (Slackware 13, Keepalive, Zebra, Openvpn, Amazon)."
-        Badges:
-          - "100+ virtual servers"
+        Badges: 
+          - "100+ virtuele servers"
           - "Red Hat"
           - "CentOS"
           - "Debian"
@@ -236,7 +236,7 @@ Experience:
     Place: "Hilversum, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Monitoring Architect"
-        Date: "Mrt 2016 – Juni 2016"
+        Date: "mrt 2016 – jun 2016"
         Details: "Ontwikkelde een 24/7 monitoring platform voor een grote telecomleverancier. Beheerde meerdere locaties via een centraal systeem en rolde nieuwe controles uit via automatisering. Leverde binnen klantvereisten met aandacht voor security: VPN tunnels, encryptie en SSL."
         Badges:
           - "6 monitoring nodes for 1000+ systems"
@@ -253,10 +253,10 @@ Experience:
     Place: "Utrecht, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Database Recovery Specialist"
-        Date: "Jan 2016 – Mrt 2016"
+        Date: "jan 2016 – mrt 2016"
         Details: "Vervanging van een verouderd en defect databaseplatform door een nieuw, stabiel PostgresQL cluster, gevirtualiseerd op HyperV. Deze verbetering waarborgt een robuuste data-infrastructuur, cruciaal voor oncologen en onderzoeken naar kanker en essentieel voor toekomstig onderzoek en klinische toepassingen."
         Badges:
-          - "5 physical servers"
+          - "5 fysieke servers"
           - "Windows Server"
           - "Debian"
           - "HyperV"
@@ -266,10 +266,10 @@ Experience:
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Netwerk Engineer"
-        Date: "Feb 2015 – Nov 2015"
+        Date: "feb 2015 – nov 2015"
         Details: "Beheerde alle Linux/Solaris systemen, netwerkapparatuur, storage systemen en gerelateerde hardware/software."
         Badges:
-          - "100+ virtual servers"
+          - "100+ virtuele servers"
           - "CentOS"
           - "Debian"
           - "Ubuntu"
@@ -285,14 +285,14 @@ Experience:
     Place: "Diemen, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Feb 2014 – Feb 2015"
+        Date: "feb 2014 – feb 2015"
         Details: "Beheerde alle Linux-, HP-UX-, Solaris- en SunOS-systemen, inclusief gerelateerde hardware en software (F5/A10 load balancers, Cisco Content switches)."
         Detailssummup:
           - "Implementeerde nood high availability load balancing systeem voor 9292.nl, gebaseerd op HA Proxy, KeepAlived en Nginx."
           - "Implementeerde high availability LDAP systeem voor Tele2 4G consumentendata."
           - "Ontwierp centrale systeemlogging setup, gebaseerd op Logstash, Elasticsearch, Kibana en Graphite."
         Badges:
-          - "100 physical servers"
+          - "100 fysieke servers"
           - "Red Hat"
           - "CentOS"
           - "Debian"
@@ -310,10 +310,10 @@ Experience:
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "NOC Engineer"
-        Date: "Jan 2013 – Feb 2014"
+        Date: "jan 2013 – feb 2014"
         Details: "Onderdeel van een groot team NOC Engineers. Monitorde en ontwikkelde monitoring tools voor diverse platforms (ebay.com, marktplaats.nl, 2ehands.be)."
         Badges:
-          - "2000+ virtual servers"
+          - "2000+ virtuele servers"
           - "Debian"
           - "Ubuntu"
           - "SVN"
@@ -328,14 +328,14 @@ Experience:
     Place: "Zwolle, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Jan 2012 – Dec 2012"
+        Date: "jan 2012 – dec 2012"
         Details: "Beheerde alle Linux hosting servers. Betrokken bij diverse projecten, leverde technische input en ontwerpen."
         Detailssummup:
           - "Ontwierp, implementeerde en onderhield webmail clusters."
           - "Ontwierp, implementeerde en onderhield KVM virtualisatie clusters."
           - "Ontwierp, implementeerde en onderhield Puppet in combinatie met Passenger configuratiesystemen."
         Badges:
-          - "100+ physical servers"
+          - "100+ fysieke servers"
           - "Dell PowerEdge"
           - "CentOS"
           - "Ubuntu"
@@ -354,10 +354,10 @@ Experience:
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
-        Date: "Apr 2011 – Dec 2011"
+        Date: "apr 2011 – dec 2011"
         Details: "Beheerde alle Debian Linux systemen en het Usenet platform. News-Service Europe was wereldwijd top 3 nieuwsgroep provider. Leverde 24/7 support en monitoring met een 7-koppig team. Bedrijfsactiviteiten gestaakt door externe factoren."
         Badges:
-          - "500 physical servers"
+          - "500 fysieke servers"
           - "Dell PowerEdge"
           - "Dell PowerVault"
           - "SuperMicro Storage"
@@ -375,7 +375,7 @@ Experience:
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Netwerk Engineer"
-        Date: "Sep 2010 – Apr 2011"
+        Date: "sep 2010 – apr 2011"
         Details: "Betrokken bij alle aanwezige Linux OS systemen. Ontwikkelde diverse toolings gebaseerd op Open Source Software. Back-up administrator voor Windows OS platform en netwerk management."
         Detailssummup:
           - "Ontwierp, implementeerde en onderhield VMWare clusters."
@@ -386,7 +386,7 @@ Experience:
           - "Back-up netwerk Engineer (Juniper SRX240/EX4200 / Cisco 9513/3650)."
           - "Back-up Windows Engineer (Windows 2003 / 2008)."
         Badges:
-          - "100+ physical servers"
+          - "100+ fysieke servers"
           - "HP Proliant"
           - "HP BladeCenters"
           - "VMware"
@@ -414,7 +414,7 @@ Experience:
     Place: "Haarlem, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Interne IT"
-        Date: "Dec 2008 – Juni 2010"
+        Date: "dec 2008 – jun 2010"
         Details: "Als enige Linux Engineer bij een van Europa's grootste hostingpartijen verantwoordelijk voor alle Linux- en Unix-systemen. Betrokken bij diverse projecten, inclusief technisch ontwerp en implementatie. Beheerde en ontwikkelde meer dan 250 fysieke, virtuele servers en appliances, verzorgde support voor 130 werkstations en alle klantgerichte servers."
         Detailssummup:
           - "Ontwierp, implementeerde en onderhield het interne netwerk (Cisco ASA/2950/3650)."
@@ -426,7 +426,7 @@ Experience:
           - "Ontwierp, implementeerde en onderhield Opsview/Nagios monitoring cluster."
           - "Ondersteunde de Programmeerafdeling tijdens wijzigingen."
         Badges:
-          - "5000+ physical servers"
+          - "5000+ fysieke servers"
           - "HP ProLiant"
           - "HP BladeCenters"
           - "Dell PowerEdge"
@@ -469,13 +469,13 @@ Diplomas:
     Details: <a href="https://www.redhat.com/rhtapps/certification/verify/?certId=140-083-718&isSearch=False&verify=Verify" target="_blank">Credential ID 140-083-718</a>
   - Course: "ITIL® Foundation Certificate in IT Service Management"
     Organisation: EXIN
-    Date: Nov 2013
+    Date: nov 2013
   - Course: "LPIC 102, Linux Administration"
     Organisation: Linux Professional Institute
-    Date: Jan 2013
+    Date: jan 2013
   - Course: "LPIC 101, Linux Administration"
     Organisation: Linux Professional Institute
-    Date: Jan 2013
+    Date: jan 2013
 
 Skills:
   - Family: Besturingssystemen
