@@ -69,12 +69,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      - name: Restore Hugo Build Output Cache
-        uses: actions/cache/restore@v4
-        with:
-          path: public
-          key: ${{ runner.os }}-hugo-build-${{ github.sha }}
-
       - name: Deploy met Wachtwoord naar ${{ vars.ftp_website }}
         uses: wlixcc/SFTP-Deploy-Action@v1.2.6
         with:
