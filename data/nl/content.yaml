@@ -29,11 +29,18 @@ Profile: >
   Gespecialiseerd in open source, cloudoplossingen, high availability en security. 
   Hij heeft brede ervaring in rollen zoals Linux systeembeheerder, migratiespecialist, systeemarchitect, automatiseringsspecialist, team lead en security engineer. Combineert strategisch inzicht met hands-on technische uitvoering binnen complexe omgevingen en gaat zelden een uitdaging uit de weg. 
 Experience:
+  - Employer: "SPIE Data SolutionsB.V."
+    Place: "DenBosch, Nederland"
+    Positions:
+      - Title: "Expert in Open Source, Security & High Availability"
+        Date: "sep 2025 – heden"
+        Details: "Overname AnyLinQ BV door SPIE Nederland"
+
   - Employer: "AnyLinQ B.V."
     Place: "DenBosch, Nederland"
     Positions:
-      - Title: "CISO / Security Officer / DevOps Engineer / Interne IT "
-        Date: "jun 2022 – heden"
+      - Title: "CISO / Security Officer / DevOps Engineer / Interne IT"
+        Date: "jun 2022 – sep 2025"
         Details: "Verantwoordelijk voor security, compliance en interne IT-infrastructuur. Waarborgt veilige en betrouwbare operaties."
         Detailssummup:
           - "Beheert informatiebeveiliging, privacy en data-integriteit."
