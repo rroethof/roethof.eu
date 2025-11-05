@@ -19,12 +19,17 @@ BasicInfo:
 
 Profile: >
   Gedreven IT-specialist en Linux Beheerder met uitgebreide allround kennis van Linux, security en netwerktechnologie.
-  Gespecialiseerd in open source, cloudoplossingen, high availability en security. Brede ervaring in rollen als systeembeheerder,
-  migratie- en automatiseringsspecialist, architect, team lead en security engineer. Combineert strategisch inzicht met
-  hands-on technische uitvoering binnen complexe omgevingen en gaat zelden een uitdaging uit de weg.
+  Gespecialiseerd in open source, cloudoplossingen, high availability en security.  
+  Brede ervaring in rollen zoals Linux systeembeheerder, Linux migratiespecialist, Linux systeemarchitect,
+  Linux automatiseringsspecialist, architect, team lead en security engineer.  
+  Combineert strategisch inzicht met hands-on technische uitvoering binnen complexe omgevingen
+  en gaat zelden een uitdaging uit de weg.
+
+  Een gedreven IT-specialist en Linux Beheerder met uitgebreide allround kennis van Linux, security en netwerktechnologie.
+  Gespecialiseerd in open source, cloudoplossingen, high availability en security. 
+  Hij heeft brede ervaring in rollen zoals Linux systeembeheerder, migratiespecialist, systeemarchitect, automatiseringsspecialist, team lead en security engineer. Combineert strategisch inzicht met hands-on technische uitvoering binnen complexe omgevingen en gaat zelden een uitdaging uit de weg. 
 Experience:
   - Employer: "SPIE Data SolutionsB.V."
-  - Employer: "SPIE Data Solutions B.V."
     Place: "DenBosch, Nederland"
     Positions:
       - Title: "Expert in Open Source, Security & High Availability"
@@ -269,7 +274,7 @@ Experience:
           Ontwikkelde 24/7 monitoring platform voor grote telecomleverancier met centraal beheer van meerdere locaties.
           Automatiseerde uitrol van monitoring nodes en nieuwe controles, rekening houdend met veiligheidseisen.
         Detailssummup:
-          - "Leverde technische input voor High Level en Detailed Level Design."
+          - "Levered technische input voor High Level en Detailed Level Design."
           - "Ontwierp en implementeerde Linux monitoring servers."
           - "Automatiseerde uitrol van monitoring nodes en controles."
           - "Documenteerde en verzorgde technisch consult."
@@ -588,7 +593,7 @@ Skills:
       - Cisco IOS
       - JunOS
       - F5 BigIP
-      - A10 Load Balancers
+      - A10 Loadbalancers
       - Cisco Technologies
       - Huawei Switches/Routers
       - HP Switches/Routers
@@ -753,3 +758,4 @@ References:
 
   - Name: "Paolo Iannelli - Mega Labs"
     Recommendation: "Ronny is niet zomaar een Unix Systeembeheerder. Hij heeft een brede en uitgebreide kennis van alle Unix- en Linux-distributies en heeft de juiste kennis om te beslissen welke te kiezen op basis van specifieke projectspecificaties. In de meeste gevallen verraste hij me door te praten over Trixbox, Asterisk op gevorderd niveau, evenals Nagios performance tuning. Naast het werk is hij een goede kerel, altijd aanwezig als er plezier te beleven valt. Ik zou mijn servers zonder problemen veilig aan hem toevertrouwen."
+
