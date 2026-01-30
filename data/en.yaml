@@ -1,0 +1,773 @@
+BasicInfo:
+  FirstName: Ronny
+  LastName: Roethof
+  DateOfBirth: 1978-02-04
+  DriversLicense: B
+  ExperienceYears: "25+"
+  Photo: img/avatar.jpg
+  Contacts:
+    - Icon: fas fa-phone
+      Info: <a href="tel:+31629383572">+31 6 29 38 35 72</a>
+    - Icon: fas fa-envelope
+      Info: <a href="mailto:resume@roethof.net">resume@roethof.net</a>
+    - Icon: fas fa-globe
+      Info: <a href="https://roethof.net" target="_blank">roethof.net</a>
+    - Icon: fas fa-globe
+      Info: <a href="https://ronnyroethof.nl" target="_blank">ronnyroethof.nl</a>
+    - Icon: fas fa-map-marker-alt
+      Info: Lelystad, The Netherlands
+
+Profile: >
+  Driven IT specialist and Linux Administrator with 25+ years of experience in Linux, security, and network technology.
+  Specialized in open source, cloud solutions, high availability, and security.
+  Experienced in roles such as system administrator, migration and automation specialist, architect, team lead, and security engineer.
+  Combines strategic insight with hands-on execution in complex environments and does not shy away from a challenge.
+
+Experience:
+  - Employer: "SPIE Data Solutions B.V."
+    Id: SPIE
+    Place: "Den Bosch, The Netherlands"
+    Positions:
+      - Title: "Expert in Open Source, Security & High Availability"
+        Date: "Sep 2025 – Present"
+        Details: "Acquisition of AnyLinQ BV by SPIE Nederland"
+
+  - Employer: "AnyLinQ B.V."
+    Id: anylinq
+    Place: "Den Bosch, The Netherlands"
+    Positions:
+      - Title: "CISO / Security Officer / DevOps Engineer / Internal IT"
+        Date: "Jun 2022 – Sep 2025"
+        Details: "Responsible for security, compliance, and internal IT infrastructure. Ensures safe and reliable operations."
+        Detailssummup:
+          - "Manages information security, privacy, and data integrity."
+          - "Develops, implements, and maintains policies."
+          - "Executes and ensures ISO 27001 / 27002 / NIS2 compliance."
+          - "Ensures secure, fast, and reliable access to data and applications."
+          - "Managed and optimized internal IT infrastructure (hardware, network, and software), guaranteeing operational reliability and security."
+        Badges:
+          - "VMware"
+          - "Proxmox"
+          - "Debian"
+          - "CentOS"
+          - "FreeBSD"
+          - "Windows Server"
+          - "Azure"
+          - "Ansible"
+          - "Huawei"
+          - "Fortigate"
+          - "GDPR"
+          - "ISO27001"
+          - "ISO27002"
+          - "NIS2"
+
+      - Title: "Security Consultant / Pentester"
+        Date: "Nov 2021 – Jun 2022"
+        Details: "Performed pentests on websites, infrastructures, and applications, resulting in secure client environments."
+        Detailssummup:
+          - "Performed blackbox, graybox, and whitebox tests."
+          - "Improved security levels for clients."
+          - "Drafted advisory reports following security assessments."
+        Badges:
+          - "Kali Linux"
+          - "Debian"
+          - "Ubuntu"
+          - "VMware"
+          - "Cisco"
+          - "Juniper"
+          - "Huawei"
+          - "Fortigate"
+
+  - Employer: "RIVM / KNMI (Seconded via AnyLinQ B.V.)"
+    Id: RIVM
+    Place: "Bilthoven, The Netherlands"
+    Positions:
+      - Title: "Area Product Owner / Teamlead / Senior Devops Engineer"
+        Date: "Oct 2020 – Nov 2021"
+        Details: "Led the Specific Hosting Team, responsible for hosting RIVM.nl, KNMI.nl, and lead developer for Covid-19 registration infrastructure."
+        Detailssummup:
+          - "Developed Ansible playbooks and roles according to Infrastructure-as-Code and High Availability principles."
+          - "Automated test execution and deployment in CI/CD pipelines." 
+          - "Built and implemented the complete infrastructure for the Covid-19 registration system and the National Vaccination Program, including Ansible automation for rapid scaling."
+          - "Worked with high commitment and flexibility under crisis conditions (night work, hundreds of overtime hours) to meet deadlines and ensure continuity."
+        Badges:
+          - "VMware"
+          - "Red Hat"
+          - "Ansible Tower"
+          - "Puppet"
+          - "GitLab"
+          - "Satellite"
+          - "IPA"
+          - "MySQL"
+          - "PostgreSQL"
+          - "Oracle"
+
+  - Employer: "Confidential Client (Seconded via AnyLinQ B.V.)"
+    Id: Confidential
+    Place: "Confidential, The Netherlands"
+    Positions:
+      - Title: "Developer / Senior System Engineer"
+        Date: "Jul 2019 – Sep 2020"
+        Details: "Worked in a highly secured environment focusing on PKI, data encryption, and secure computing."
+        Detailssummup:
+          - "Developed PHP Framework for internal development."
+          - "Wrote custom dashboards and tools for internal use."
+          - "Implemented complex automation projects with Ansible Tower."
+          - "Managed over 100 virtual servers on VMware/Red Hat platform."
+        Badges:
+          - "VMware"
+          - "Red Hat"
+          - "PHP"
+          - "Python"
+          - "Ansible Tower"
+          - "GitLab"
+          - "Satellite"
+
+  - Employer: "Neostrada B.V."
+    Id: Neostrada
+    Place: "Lelystad, The Netherlands"
+    Positions:
+      - Title: "Senior System Engineer"
+        Date: "May 2017 – Jun 2019"
+        Details: "Part of a 3-person team, responsible for 500+ physical hosting servers, 3500+ virtual machines, and a 5 PB offsite backup platform."
+        Detailssummup:
+          - "Developed Ansible playbooks and roles for applications."
+          - "Implemented and managed high availability clusters with 99.995% uptime."
+          - "Built Autobackup: FreeBSD ZFS-based 5PB backup platform."
+          - "Realized 24/7 monitoring and alerting."
+        Badges:
+          - "CloudLinux"
+          - "CentOS"
+          - "Debian"
+          - "FreeBSD"
+          - "Apache"
+          - "Nginx"
+          - "Exim"
+          - "cPanel"
+          - "DirectAdmin"
+          - "NFS"
+          - "ZFS"
+          - "Ceph"
+          - "Ansible"
+          - "Git"
+          - "KVM"
+          - "Proxmox"
+          - "Docker"
+          - "Huawei Switches"
+          - "HP Switches"
+          - "Dell PowerEdge"
+          - "HP ProLiant"
+          - "SuperMicro"
+
+  - Employer: "Liberty Global B.V. (Seconded via Ultimum B.V.)"
+    Id: LibertyGlobal
+    Place: "Amsterdam, The Netherlands"
+    Positions:
+      - Title: "Senior DevOps Engineer"
+        Date: "Jan 2017 – Mar 2017"
+        Details: >
+          Was part of a 9-person team, responsible for the design and construction of the
+          Operational Data Hub (ODH), part of the One Back Office (OBO) platform.
+          This platform served for real-time performance analytics based on CPEs, BSS, and OSS.
+          Designed, implemented, and documented Ansible roles and automated the
+          installation of systems.
+        Detailssummup:
+          - "Designed, implemented, and documented Ansible roles."
+          - "Automated system installation."
+          - "Realization of real-time analytics environment."
+        Badges:
+          - "CentOS"
+          - "Red Hat"
+          - "Ansible"
+          - "Docker"
+          - "Zookeeper"
+          - "Kafka"
+          - "Flume"
+          - "HDFS"
+          - "Spark"
+          - "Logstash"
+          - "Elasticsearch"
+          - "Dell PowerEdge"
+
+  - Employer: "Ultimum B.V."
+    Id: Ultimum
+    Place: "Almere, The Netherlands"
+    Positions:
+      - Title: "Security Consultant"
+        Date: "Nov 2016 – Jan 2017"
+        Details: >
+          Performed security tests on websites, infrastructures, and applications using blackbox, graybox, and whitebox techniques.
+          Hosted security workshops for colleagues and clients and resolved security incidents.
+        Detailssummup:
+          - "Designed, implemented, and documented workshop VMs."
+          - "Conducted security workshops."
+          - "Performed pentests (blackbox/graybox/whitebox)."
+          - "Resolved security incidents."
+          - "Performed migration and maintenance of all Ultimum websites."
+        Badges:
+          - "Kali Linux"
+          - "Debian"
+          - "Ubuntu"
+          - "VMware vSphere"
+          - "Ansible"
+
+  - Employer: "Meyn B.V. (Seconded via Ultimum B.V.)"
+    Id: Meyn
+    Place: "Oostzaan, The Netherlands"
+    Positions:
+      - Title: "DevOps Engineer / Automation Specialist"
+        Date: "Sep 2016 – Nov 2016"
+        Details: >
+          Developed a central deployment platform for various virtualization technologies and in-house software products,
+          based on Kickstart and Ansible. From this platform, the entire virtualization platform could be deployed and managed at external locations.
+        Detailssummup:
+          - "Designed, implemented, and documented virtualization environments."
+          - "Set up and managed configuration management."
+          - "Developed and rolled out software deployment."
+        Badges:
+          - "CentOS"
+          - "Ansible"
+          - "Citrix XenServer"
+          - "Git"
+          - "Icinga"
+          - "Ruby"
+          - "Perl"
+          - "Kickstart"
+          - "Dell PowerEdge"
+
+  - Employer: "Ultimum Managed Services"
+    Id: UltimumMS
+    Place: "Almere, The Netherlands"
+    Positions:
+      - Title: "Linux Engineer"
+        Date: "Jun 2016 – Sep 2016"
+        Details: >
+          Performed various Linux/Unix and Open Source tasks, including management and migrations of complex client platforms
+          (Slackware 13, Keepalive, Zebra, OpenVPN, Amazon AWS). Final responsibility for multiple migrations.
+        Detailssummup:
+          - "Provisioned and managed servers and VMs."
+          - "Provisioned Docker environments."
+          - "Automated systems and performed hardening with Ansible."
+          - "Performed migrations of DNS and web servers to managed and hardened platforms."
+          - "Set up VPN connections between networks."
+          - "Migrated client infrastructures to AWS."
+          - "Virtualized databases."
+          - "Rolled out monitoring."
+        Badges:
+          - "Red Hat"
+          - "CentOS"
+          - "Debian"
+          - "Slackware"
+          - "Ubuntu"
+          - "Amazon AWS"
+          - "VMware vSphere"
+          - "Ansible"
+          - "Nagios"
+          - "Docker"
+          - "PRTG"
+          - "Fortigate"
+          - "Cisco"
+          - "HP Procurve"
+
+  - Employer: "SLTN (Seconded via Ultimum B.V.)"
+    Id: Sltn
+    Place: "Hilversum, The Netherlands"
+    Positions:
+      - Title: "System and Monitoring Architect"
+        Date: "Mar 2016 – Jun 2016"
+        Details: >
+          Developed 24/7 monitoring platform for a large telecom supplier with central management of multiple locations.
+          Automated rollout of monitoring nodes and new checks, taking security requirements into account.
+        Detailssummup:
+          - "Provided technical input for High Level and Detailed Level Design."
+          - "Designed and implemented Linux monitoring servers."
+          - "Automated rollout of monitoring nodes and checks."
+          - "Documented and provided technical consultation."
+        Badges:
+          - "CentOS 7"
+          - "Nagios"
+          - "MySQL"
+          - "Ansible"
+          - "HP Blades"
+          - "HP 3PAR Storage"
+          - "HP Switches"
+          - "HP Routers"
+
+  - Employer: "Merus N.V. (Seconded via Ultimum B.V.)"
+    Id: Merus
+    Place: "Utrecht, The Netherlands"
+    Positions:
+      - Title: "Linux Engineer / Database Recovery Specialist"
+        Date: "Dec 2015 – Mar 2016"
+        Details: >
+          Replaced a defective database platform; implemented a new PostgreSQL cluster on HyperV, crucial for oncology research.
+        Detailssummup:
+          - "Implemented Linux systems."
+          - "Implemented and fine-tuned PostgreSQL."
+          - "Documented and provided technical consultation."
+        Badges:
+          - "Ubuntu 14"
+          - "PostgreSQL"
+          - "HyperV"
+
+  - Employer: "FD Mediagroep B.V. (Seconded via Ultimum B.V.)"
+    Id: FD
+    Place: "Amsterdam, The Netherlands"
+    Positions:
+      - Title: "Linux Engineer / Network Engineer"
+        Date: "Feb 2015 – Nov 2015"
+        Details: >
+          Managed Linux/Solaris systems, network equipment, storage systems, and related hardware/software.
+          Managed transition from Solaris to Linux, replaced storage and backup environments, and automated monitoring.
+        Detailssummup:
+          - "Phased out Solaris environment to Linux."
+          - "Renewed storage and backup solutions."
+          - "Implemented failover site."
+          - "Automated with Ansible."
+        Badges:
+          - "CentOS 6/7"
+          - "Debian 7/8"
+          - "Ubuntu 12/14"
+          - "Solaris 8/9"
+          - "VMware vSphere 5/6"
+          - "Ansible"
+          - "Nagios"
+          - "Cisco"
+          - "HP Procurve"
+          - "HP Lefthand"
+
+  - Employer: "Tele2 Nederland B.V. (Seconded via Ultimum B.V.)"
+    Id: Tele2
+    Place: "Diemen, The Netherlands"
+    Positions:
+      - Title: "Senior System Engineer"
+        Date: "Feb 2014 – Feb 2015"
+        Details: >
+          Managed Linux, HP-UX, Solaris, and SunOS systems with a focus on high availability and load balancing.
+          Developed HA solutions for 9292.nl, LDAP, and central logging.
+        Detailssummup:
+          - "Set up HA load balancers with HAProxy, KeepAlived, and Nginx."
+          - "Implemented HA LDAP system."
+          - "Designed central logging with Logstash, Elasticsearch, Kibana, and Graphite."
+          - "Daily management of servers and monitoring tools."
+        Badges:
+          - "Red Hat"
+          - "CentOS"
+          - "Debian"
+          - "Solaris"
+          - "VMware"
+          - "OpenLDAP"
+          - "Active Directory"
+          - "Dell Netvault"
+          - "F5 BigIP"
+          - "A10 Load Balancers"
+
+  - Employer: "eBay Classifieds Group (Seconded via Ultimum B.V.)"
+    Id: eBay
+    Place: "Amsterdam, The Netherlands"
+    Positions:
+      - Title: "NOC Engineer"
+        Date: "Jan 2013 – Feb 2014"
+        Details: >
+          Managed monitoring and developed monitoring tools for eBay platforms and various marketplaces.
+          Management of over 2000 virtual servers and daily troubleshooting.
+        Detailssummup:
+          - "Migrated and managed servers and virtualization."
+          - "Daily management of Debian and Ubuntu systems."
+          - "Set up monitoring with Nagios, Zabbix, Graphite, Cacti."
+          - "Automated systems with Puppet and Passenger."
+          - "Coached team members and handled inquiries."
+        Badges:
+          - "Debian"
+          - "Ubuntu"
+          - "SVN"
+          - "Mercurial"
+          - "Git"
+          - "Puppet"
+          - "Nagios"
+          - "Graphite"
+          - "Cacti"
+
+  - Employer: "YourHosting B.V."
+    Id: YourHosting
+    Place: "Zwolle, The Netherlands"
+    Positions:
+      - Title: "Senior System Engineer"
+        Date: "Jan 2012 – Dec 2012"
+        Details: >
+          Managed Linux hosting servers, provided technical input, and designed webmail and KVM clusters as well as Puppet configuration.
+        Detailssummup:
+          - "Designed and managed webmail clusters."
+          - "Designed and managed KVM virtualization clusters."
+          - "Designed and managed Puppet in combination with Passenger."
+          - "Maintained and resolved issues in Linux/Unix servers."
+          - "Maintained mail and web hosting clusters."
+          - "Implemented and managed Nagios monitoring."
+        Badges:
+          - "CentOS"
+          - "Ubuntu"
+          - "Apache"
+          - "MySQL"
+          - "Postfix"
+          - "SendMail"
+          - "Courier"
+          - "Git"
+          - "Puppet"
+          - "Nagios"
+          - "Graphite"
+          - "Cacti"
+
+  - Employer: "News Service Europe B.V."
+    Id: NewsServiceEurope
+    Place: "Amsterdam, The Netherlands"
+    Positions:
+      - Title: "Linux System Administrator / Senior System Engineer"
+        Date: "Apr 2011 – Dec 2011"
+        Details: >
+          Management of all Debian Linux systems and the Usenet platform based on it.
+          News-Service Europe was among the global top 3 newsgroup providers.
+          Provided 24/7 support and monitoring within a 7-person team. Co-responsible
+          for system designs, implementations, and maintenance of critical infrastructure.
+        Detailssummup:
+          - "Designed, implemented, and managed KVM clusters."
+          - "Designed, implemented, and managed Puppet configuration systems."
+          - "Maintained and resolved Linux/Unix server issues."
+          - "Maintained custom Debian packages and mirrors."
+          - "Maintained Usenet clusters and storage platforms."
+          - "Maintained mail and web hosting clusters."
+          - "Implemented and managed Nagios monitoring."
+        Badges:
+          - "500+ fysieke servers"
+          - "Dell PowerEdge"
+          - "Dell PowerVault"
+          - "SuperMicro Storage"
+          - "Debian 5"
+          - "MySQL"
+          - "PostgreSQL"
+          - "KVM"
+          - "Apache 2"
+          - "Postfix"
+          - "Spamassassin"
+          - "Nagios"
+          - "Diablo NNTP"
+
+  - Employer: "ACN Europe B.V. (Seconded via InWork B.V.)"
+    Id: ACNEurope
+    Place: "Amsterdam, The Netherlands"
+    Positions:
+      - Title: "Linux System Administrator / Network Engineer"
+        Date: "Aug 2010 – Apr 2011"
+        Details: >
+          Responsible for all Linux OS systems and development of tooling based on open source software.
+          Also backup administrator for Windows environments, network administrator, and storage administrator.
+        Detailssummup:
+          - "Designed, implemented, and managed VMware clusters."
+          - "Designed, implemented, and managed Puppet configuration systems."
+          - "Designed, implemented, and managed Squid web filters."
+          - "Designed, implemented, converted, and migrated Exchange to Zimbra."
+          - "Implemented and managed Zabbix monitoring."
+          - "Backup network management (Juniper SRX240/EX4200, Cisco 9513/3650)."
+          - "Backup Windows management (Windows 2003/2008, IIS 7, Exchange 2007)."
+          - "Backup storage management (EMC CX3/4, EMC AX5)."
+        Badges:
+          - "100+ fysieke servers"
+          - "HP ProLiant"
+          - "HP BladeCenters"
+          - "VMware ESX 3/4"
+          - "CentOS 5.5"
+          - "Windows 2003/2008"
+          - "Cisco IOS"
+          - "JunOS"
+          - "MySQL 5"
+          - "Apache 2"
+          - "Postfix"
+          - "Spamassassin"
+          - "Zabbix"
+          - "Zimbra"
+          - "Samba"
+          - "IIS 7"
+          - "MS Exchange 2003/2010"
+          - "Active Directory"
+          - "Cisco Switches/Routers"
+          - "Juniper Switches/Firewalls"
+          - "EMCSAN Storage"
+
+  - Employer: "Leaseweb B.V."
+    Id: Leaseweb
+    Place: "Haarlem, The Netherlands"
+    Positions:
+      - Title: "Senior System Engineer / Internal IT"
+        Date: "Dec 2008 – Jun 2010"
+        Details: >
+          As the sole Linux Engineer responsible for all Linux and Unix systems at one of Europe's
+          largest hosting parties. Involved in design, implementation, and management of internal and client environments.
+          Provided support to development teams and responsible for continuity of business-critical services.
+        Detailssummup:
+          - "Designed, implemented, and managed internal network (Cisco ASA/2950/3650)."
+          - "Designed, implemented, and managed Juniper VPN (SRX650)."
+          - "Designed, implemented, and managed VMware ESX 4 environment."
+          - "Designed, implemented, and managed internal/external DNS servers."
+          - "Designed, implemented, and managed Voice over IP telephony and fax services."
+          - "Designed, implemented, and managed mail hosting clusters."
+          - "Designed, implemented, and managed web hosting clusters."
+          - "Designed, implemented, and managed Opsview/Nagios monitoring clusters."
+          - "Supported the programming department with changes."
+        Badges:
+          - "250+ fysieke/virtuele servers"
+          - "5000+ klantservers"
+          - "HP ProLiant"
+          - "HP BladeCenters"
+          - "Dell PowerEdge"
+          - "SuperMicro Storage"
+          - "VMware ESX 3/4"
+          - "Red Hat"
+          - "CentOS"
+          - "Debian"
+          - "Ubuntu"
+          - "FreeBSD"
+          - "Windows Server 2003/2008"
+          - "Cisco IOS"
+          - "JunOS"
+          - "MySQL"
+          - "Apache 2"
+          - "Postfix"
+          - "SpamAssassin"
+          - "Zabbix"
+          - "Zimbra"
+          - "Samba"
+          - "IIS 6/7"
+          - "MS Exchange 2003/2010"
+          - "Active Directory"
+          - "Cisco Switches/Routers"
+          - "Juniper Switches/Firewalls"
+          - "EMC SAN Storage"
+          - "Asterisk"
+
+Education:
+  - Course: "MAVO D"
+    Place: "Scholen Gemeenschap Lelystad"
+    Date: 1993 – 1995
+
+Diplomas:
+  - Course: "Red Hat Certified System Administrator (RHCSA 7)"
+    Organisation: "Red Hat"
+    Date: "Jun 2016"
+    Details: >
+      <a href="https://www.redhat.com/rhtapps/certification/verify/?certId=140-083-718&isSearch=False&verify=Verify" target="_blank">
+      Credential ID 140-083-718, Exam Code EX200</a>
+  - Course: "ITIL® Foundation Certificate in IT Service Management"
+    Organisation: "EXIN"
+    Date: "Nov 2013"
+  - Course: "LPIC-1, Linux Professional Institute Certified Administrator"
+    Organisation: "Linux Professional Institute"
+    Date: "Jan 2013"
+
+Skills:
+  - Family: Operating Systems
+    Items:
+      - Linux
+      - Debian
+      - FreeBSD
+      - Arch
+      - Ubuntu
+      - Red Hat Enterprise Linux (RHEL)
+      - Unix
+      - Windows Server
+
+  - Family: Automation & Configuration Management
+    Items:
+      - Ansible
+      - Puppet
+      - Kickstart
+
+  - Family: Programming Languages & Scripting
+    Items:
+      - Bash
+      - Python
+      - PHP
+
+  - Family: Virtualization & Cloud
+    Items:
+      - VMware
+      - KVM
+      - Xen
+      - Proxmox
+      - Hyper-V
+      - Docker
+      - Azure
+      - Amazon AWS
+
+  - Family: Networking
+    Items:
+      - High Availability
+      - HAProxy
+      - Keepalived
+      - VPN (OpenVPN)
+      - Cisco IOS
+      - JunOS
+      - F5 BigIP
+      - A10 Load Balancers
+      - Cisco Technologies
+      - Huawei Switches/Routers
+      - HP Switches/Routers
+      - Dell Switches
+
+  - Family: Security
+    Items:
+      - Firewalls
+      - Data Encryption
+      - PKI (Public Key Infrastructure)
+      - Fortigate
+      - Pentesting Tools
+      - Kali Linux
+      - GDPR
+      - ISO 27001
+      - ISO 27002
+      - NIS2
+
+  - Family: Directory Services
+    Items:
+      - DNS
+      - OpenLDAP
+      - Active Directory
+
+  - Family: Monitoring & Logging
+    Items:
+      - Nagios
+      - Zabbix
+      - Graphite
+      - Cacti
+      - PRTG
+      - Logstash
+      - Elasticsearch
+      - Kibana
+
+  - Family: Databases
+    Items:
+      - MySQL
+      - PostgreSQL
+
+  - Family: Web & Mail Servers
+    Items:
+      - Apache
+      - Nginx
+      - Postfix
+      - Exim
+      - SendMail
+      - Courier
+      - Zimbra
+      - IIS
+
+  - Family: Version Control & CI/CD
+    Items:
+      - Git
+      - GitLab
+      - Jenkins
+      - Bitbucket
+      - Subversion
+      - Mercurial
+
+  - Family: Server Hardware
+    Items:
+      - Dell PowerEdge
+      - HP Proliant
+      - HP Blades
+      - SuperMicro
+
+  - Family: Storage Systems
+    Items:
+      - ZFS
+      - Ceph
+      - NFS
+      - HP 3PAR Storage
+      - HP Lefthand
+      - EMCSAN storage
+      - Dell PowerVault
+      - SuperMicro Storage
+
+  - Family: Other & Concepts
+    Items:
+      - System Administration
+      - DevOps Principles
+      - Open Source
+      - ITIL
+      - Usenet/NNTP
+      - Apple
+      - Asterisk
+      - cPanel
+      - DirectAdmin
+
+Languages:
+  - Name: Dutch
+    Level: Native
+  - Name: English
+    Level: Fluent
+
+Interests:
+  - Blogging
+  - Cars
+  - Cybersecurity
+  - Open Source
+  - Family
+  - Fishing
+
+References:
+  - Name: "Chris Dorsman - Ervaren Python, Penguin & Whale Whisperer"
+    Recommendation: "“What you see is what you get” is the expression that comes to mind when I think of Ronny. I had the pleasure of working with Ronny for a year at the SC-Campus/RIVM Linux team where he was interim Area Product Owner/Senior Linux engineer and I was senior Linux Engineer. During this year we dealt with quite tough and tense projects within the COVID19 program, where we executed almost impossible projects (and usually succeeded). Apart from his humor, Ronny is one of the most hardworking, but also most capable and honest people I know. He would be a great asset for any technical and team lead position."
+
+  - Name: "Mark Maas - Kubernetes Engineer bij Defensie"
+    Recommendation: "Ronny knows his tech! There is nothing Ronny couldn't learn or invent. Ronny has a strong opinion but knows when to listen and incorporate those opinions into his own. If you've read Ronny's manual, there is nothing you can't achieve with him."
+
+  - Name: "Paul Commandeur - Linux/Unix Systeem Engineer bij Xifeo"
+    Recommendation: "I got to know Ronny at Tele2. Ronny is a good Linux engineer with knowledge of the field. He is a reliable colleague who works with passion and dedication."
+
+  - Name: "Sebastiaan Koot - IT Quality Lead @ the/experts"
+    Recommendation: "I got to know Ronny as an administrator who works very quickly and adequately. He is always willing to think further and outside the box. He is solution-oriented and professionally competent. Even when he encounters unknown material, he quickly familiarizes himself with it due to his broad technical basis."
+
+  - Name: "Harald Assenberg - Sr. Adviseur Bedrijfsvoering - Directie Informatietechnologie"
+    Recommendation: "Ronny is a good, honest, hard worker. He is very knowledgeable and not afraid to work extra hours to achieve his goal. I can speak from experience that he is an asset to any company with his great commitment. Injustice or unreasonableness is what he is allergic to. Furthermore, a top guy!!"
+
+  - Name: "John Gerritse - Linux Engineer bij Alliander NV"
+    Recommendation: "Ronny is a capable colleague who strives for the best result. He was a team player and did his work with utmost professionalism. I would definitely recommend Ronny and hope to work with him again in the future."
+
+  - Name: "Peter Ponsen - Senior Linux Engineer bij BrightCubes"
+    Recommendation: "Ronny is a valued colleague who has an extensive technical background in many systems and therefore can easily see the bigger picture. Thanks Ron!"
+
+  - Name: "Talip Karabas - Offensive Cyber Security Engineer | Penetration Tester | Ethical Hacker | DevSecOps Engineer"
+    Recommendation: "Ronny is a very skilled Senior system engineer with a lot of experience and a very good team player. It was a pleasure working with you Ronny!"
+
+  - Name: "Richard Pijnenburg - Oprichter van Eclectic Events, Eclectic DJ Collective en Eclectic Entertainment Group"
+    Recommendation: "Ronny is a very motivated and fun guy to work with. Enormous knowledge and not shy to learn from others."
+
+  - Name: "Tom Carrion Chrisstoffels - Software architect @ Thales"
+    Recommendation: "Skilled sysadmin. A pleasure to work with!"
+
+  - Name: "Reinier Haasjes - Senior DevOps & Infrastructuur Engineer | Schaalbaarheid & Automatisering"
+    Recommendation: "Ronny is a nice and social colleague to work with. He is dedicated, hardworking, and flexible. He has broad knowledge of Linux, Windows, and IT solutions and no 9-to-5 mentality. I can recommend Ronny for any position he would apply for."
+
+  - Name: "Arjan de Jong - Cybersecurity Architect bij Capgemini"
+    Recommendation: "Ronny is a very skilled administrator, he knows the ins and outs of his products, stays up to date with all new developments, and is open to other products/solutions that do not run on the Linux platform. He is a very nice guy to work with, listens to the opinions of others, and has good social skills. If you are looking for a highly qualified Linux administrator, Ronny will definitely get the job done for you!"
+
+  - Name: "Corné van der Vaart - Senior projectmanager bij Proximus Group"
+    Recommendation: "Ronny is a very skilled Senior system administrator with great knowledge of Unix / Linux and even Windows systems. Ronny does not mind working outside office hours or overtime. Because of his flexible attitude and professional IT solutions, he will be a stable factor within your company."
+
+  - Name: "Patrick Schreurs - Senior Privacy Consultant | LLM | BSc | CIPPE | CIPM | CIPT | FIP | FG"
+    Recommendation: "Ronny is a dedicated engineer with broad knowledge of System Administration. I experienced Ronny as a pleasant, easy-going, and dedicated colleague. It was a pleasure working with Ronny."
+
+  - Name: "Rachid Achellal - Security Engineer bij Conclusion Enablement"
+    Recommendation: "Ronny has knowledge of BSD, Linux, MySQL, VoIP, and much more. He has no 9-to-5 mentality and is always busy. He is helpful and you can ask him anything. It was a pleasure working with him."
+
+  - Name: "Mark Kerssens - Linux Engineer"
+    Recommendation: "I enjoyed working with Ronny very much. His dedication and skills taught me much of what I know today. I have no doubt that Ronny has a bright future ahead of him. Besides being a good colleague, he is also a nice person to deal with."
+
+  - Name: "Patrick Kievit - Integreert geautomatiseerde testen met softwareontwikkeling..."
+    Recommendation: "I have never seen anyone type commands so fast, truly amazing. No migration is too much for him and he does it with great dedication. Additionally, his cooperative approach contributed to the success of our projects. Ronny, thanks and I wish you good luck in the future."
+
+  - Name: "Thorsten Einig - Product, Domeinen en Business Development @ WHG"
+    Recommendation: "I have always appreciated Ronny as a very knowledgeable and helpful colleague. The pleasure he has in his work and with his colleagues complements his hands-on approach. Ronny tackles problems as they come and solves them quickly without losing the overview of his enormous area of responsibility and certainly without a 9-to-5 mentality."
+
+  - Name: "Thomas Weaver - Information Security Architect bij bet365"
+    Recommendation: "It was a pleasure working with Ronny, not only professionally but also socially. As the sole Senior Unix Administrator at LeaseWeb, he always had a lot of work to do, but still managed to achieve his goals and help others when they needed it. I have never worked with a more knowledgeable, helpful, and nice guy."
+
+  - Name: "Paolo Iannelli - Mega Labs"
+    Recommendation: "Ronny is not just a Unix System Administrator. He has broad and extensive knowledge of all Unix and Linux distributions and has the right knowledge to decide which one to choose based on specific project specifications. In most cases, he surprised me by talking about Trixbox, Asterisk at an advanced level, as well as Nagios performance tuning. Besides work, he is a good guy, always present when there is fun to be had. I would entrust my servers to him safely without any problems."

@@ -3,7 +3,7 @@ BasicInfo:
   LastName: Roethof
   DateOfBirth: 1978-02-04
   DriversLicense: B
-  ExperienceYears: 25+
+  ExperienceYears: "25+"
   Photo: img/avatar.jpg
   Contacts:
     - Icon: fas fa-phone
@@ -18,21 +18,23 @@ BasicInfo:
       Info: Lelystad, Nederland
 
 Profile: >
-  Gedreven IT-specialist en Linux Beheerder met uitgebreide allround kennis van Linux, security en netwerktechnologie.
-  Gespecialiseerd in open source, cloudoplossingen, high availability en security. Brede ervaring in rollen als systeembeheerder,
-  migratie- en automatiseringsspecialist, architect, team lead en security engineer. Combineert strategisch inzicht met
-  hands-on technische uitvoering binnen complexe omgevingen en gaat zelden een uitdaging uit de weg.
+  Gedreven IT-specialist en Linux Beheerder met 25+ jaar ervaring in Linux, security en netwerktechnologie.
+  Gespecialiseerd in open source, cloudoplossingen, high availability en security.
+  Ervaren in rollen als systeembeheerder, migratie- en automatiseringsspecialist, architect, team lead en security engineer.
+  Combineert strategisch inzicht met hands-on uitvoering in complexe omgevingen en schuwt geen uitdaging.
+
 Experience:
-  - Employer: "SPIE Data SolutionsB.V."
   - Employer: "SPIE Data Solutions B.V."
-    Place: "DenBosch, Nederland"
+    Id: SPIE
+    Place: "Den Bosch, Nederland"
     Positions:
       - Title: "Expert in Open Source, Security & High Availability"
         Date: "sep 2025 – heden"
         Details: "Overname AnyLinQ BV door SPIE Nederland"
 
   - Employer: "AnyLinQ B.V."
-    Place: "DenBosch, Nederland"
+    Id: anylinq
+    Place: "Den Bosch, Nederland"
     Positions:
       - Title: "CISO / Security Officer / DevOps Engineer / Interne IT"
         Date: "jun 2022 – sep 2025"
@@ -42,7 +44,7 @@ Experience:
           - "Ontwikkelt, implementeert en onderhoudt beleid."
           - "Voert ISO 27001 / 27002 / NIS2 compliance uit en borgt deze."
           - "Zorgt voor veilige, snelle en betrouwbare toegang tot data en applicaties."
-          - "Beheert interne IT: hardware, netwerk en software."
+          - "Beheerde en optimaliseerde interne IT-infrastructuur (hardware, netwerk en software), waardoor operationele betrouwbaarheid en beveiliging werden gegarandeerd."
         Badges:
           - "VMware"
           - "Proxmox"
@@ -77,6 +79,7 @@ Experience:
           - "Fortigate"
 
   - Employer: "RIVM / KNMI (Gedetacheerd via AnyLinQ B.V.)"
+    Id: RIVM
     Place: "Bilthoven, Nederland"
     Positions:
       - Title: "Area Product Owner / Teamlead / Senior Devops Engineer"
@@ -100,6 +103,7 @@ Experience:
           - "Oracle"
 
   - Employer: "Vertrouwelijke opdrachtgever (Gedetacheerd via AnyLinQ B.V.)"
+    Id: Confidential
     Place: "Vertrouwelijk, Nederland"
     Positions:
       - Title: "Developer / Senior Systeem Engineer"
@@ -120,6 +124,7 @@ Experience:
           - "Satellite"
 
   - Employer: "Neostrada B.V."
+    Id: Neostrada
     Place: "Lelystad, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
@@ -155,6 +160,7 @@ Experience:
           - "SuperMicro"
 
   - Employer: "Liberty Global B.V. (Gedetacheerd via Ultimum B.V.)"
+    Id: LibertyGlobal
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Senior DevOps Engineer"
@@ -184,6 +190,7 @@ Experience:
           - "Dell PowerEdge"
 
   - Employer: "Ultimum B.V."
+    Id: Ultimum
     Place: "Almere, Nederland"
     Positions:
       - Title: "Security Consultant"
@@ -205,6 +212,7 @@ Experience:
           - "Ansible"
 
   - Employer: "Meyn B.V. (Gedetacheerd via Ultimum B.V.)"
+    Id: Meyn
     Place: "Oostzaan, Nederland"
     Positions:
       - Title: "DevOps Engineer / Automatiseringsspecialist"
@@ -228,6 +236,7 @@ Experience:
           - "Dell PowerEdge"
 
   - Employer: "Ultimum Managed Services"
+    Id: UltimumMS
     Place: "Almere, Nederland"
     Positions:
       - Title: "Linux Engineer"
@@ -261,6 +270,7 @@ Experience:
           - "HP Procurve"
 
   - Employer: "SLTN (Gedetacheerd via Ultimum B.V.)"
+    Id: Sltn
     Place: "Hilversum, Nederland"
     Positions:
       - Title: "Systeem en Monitoring Architect"
@@ -284,6 +294,7 @@ Experience:
           - "HP Routers"
 
   - Employer: "Merus N.V. (Gedetacheerd via Ultimum B.V.)"
+    Id: Merus
     Place: "Utrecht, Nederland"
     Positions:
       - Title: "Linux Engineer / Database Recovery Specialist"
@@ -300,6 +311,7 @@ Experience:
           - "HyperV"
 
   - Employer: "FD Mediagroep B.V. (Gedetacheerd via Ultimum B.V.)"
+    Id: FD
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Linux Engineer / Netwerk Engineer"
@@ -325,6 +337,7 @@ Experience:
           - "HP Lefthand"
 
   - Employer: "Tele2 Nederland B.V. (Gedetacheerd via Ultimum B.V.)"
+    Id: Tele2
     Place: "Diemen, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
@@ -350,6 +363,7 @@ Experience:
           - "A10 Load Balancers"
 
   - Employer: "eBay Classifieds Group (Gedetacheerd via Ultimum B.V.)"
+    Id: eBay
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "NOC Engineer"
@@ -375,6 +389,7 @@ Experience:
           - "Cacti"
 
   - Employer: "YourHosting B.V."
+    Id: YourHosting
     Place: "Zwolle, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer"
@@ -403,6 +418,7 @@ Experience:
           - "Cacti"
 
   - Employer: "News Service Europe B.V."
+    Id: NewsServiceEurope
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Linux Systeembeheerder / Senior Systeem Engineer"
@@ -436,6 +452,7 @@ Experience:
           - "Diablo NNTP"
 
   - Employer: "ACN Europe B.V. (Gedetacheerd via InWork B.V.)"
+    Id: ACNEurope
     Place: "Amsterdam, Nederland"
     Positions:
       - Title: "Linux Systeembeheerder / Netwerk Engineer"
@@ -476,6 +493,7 @@ Experience:
           - "EMCSAN Storage"
 
   - Employer: "Leaseweb B.V."
+    Id: Leaseweb
     Place: "Haarlem, Nederland"
     Positions:
       - Title: "Senior Systeem Engineer / Interne IT"

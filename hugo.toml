@@ -1,14 +1,35 @@
-languageCode = "nl-nl"
-defaultContentLanguage = "nl"
+baseURL = "https://ronnyroethof.nl/"
+title = "Ronny Roethof"
+#googleAnalytics = ""
+ 
 enableRobotsTXT = true
 enableEmoji = true
 
 theme = "almeida-cv"
 disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
-baseURL = "https://roethof.eu/"
-title = "Ronny Roethof"
-#googleAnalytics = ""
+languageCode = "nl-nl"
+defaultContentLanguage = "nl"
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = false
+
+[languages]
+  [languages.nl]
+    languageCode = "nl-NL"
+    languageName = "Nederlands"
+    weight = 1
+
+  [languages.nl.params]
+    cv_pdf = "/pdf/ronny-roethof-cv-nl.pdf"
+
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 2
+
+  [languages.en.params]
+    cv_pdf = "/pdf/ronny-roethof-cv-en.pdf"
+
 
 [params]
 enableMetaTags = true
