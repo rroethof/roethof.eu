@@ -10,8 +10,8 @@ disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 languageCode = "nl-nl"
 defaultContentLanguage = "nl"
-defaultContentLanguageInSubdir = false
-disableDefaultLanguageRedirect = false
+defaultContentLanguageInSubdir = true
+disableDefaultLanguageRedirect = true
 
 [languages]
   [languages.nl]
