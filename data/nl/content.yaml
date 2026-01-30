@@ -4,7 +4,7 @@ BasicInfo:
   DateOfBirth: 1978-02-04
   DriversLicense: B
   ExperienceYears: "25+"
-  Photo: img/avatar.jpg
+  Photo: /img/avatar.jpg
   Contacts:
     - Icon: fas fa-phone
       Info: <a href="tel:+31629383572">+31 6 29 38 35 72</a>
