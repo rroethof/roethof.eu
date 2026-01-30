@@ -2,13 +2,6 @@
 <a href="/pdf/cv-ronny-roethof-nl.pdf">📄 Download NL CV (PDF)</a><br>
 <a href="/pdf/cv-ronny-roethof-en.pdf">📄 Download EN CV (PDF)</a><br>
 </p>
-
-<nav>
-  {{ range .Site.Languages }}
-    <a href="{{ .Lang | relLangURL }}">
-      {{ .LanguageName }}
-    </a>
-  {{ end }}
-</nav>
-
+<br>
+{{ partial "language-switcher.html" . }}
 <br>

@@ -6,6 +6,18 @@ $width-right-col: $page-width - $width-left-col;
 // ANIMATIONS
 $cubic: 0.63, 0.21, 0.76, 1.58;
 
+.language-switcher {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+}
+
+.language-switcher a {
+  text-decoration: none;
+  margin-left: 8px;
+}
+
 
 .content {
     // A4 paper
