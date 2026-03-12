@@ -129,7 +129,7 @@ Experience:
     Positions:
       - Title: "Senior Systeem Engineer"
         Date: "mei 2017 – jun 2019"
-        Details: "Onderdeel van een 3-koppig team, verantwoordelijk voor 500+ fysieke hostingservers, 3500+ virtuele machines en een 5 PB offsite backup platform."
+        Details: "Onderdeel van een 3-koppig team, verantwoordelijk voor shared hostingservers, vps hosting en een 5 PB offsite backup platform."
         Detailssummup:
           - "Ontwikkelde Ansible-playbooks en roles voor applicaties."
           - "Implementeerde en beheerde high availability clusters met 99.995% uptime."
@@ -718,6 +718,10 @@ Interests:
   - Vissen
 
 References:
+
+  - Name: "Paul Germanus - Senior Technical Consultant bij Databalance"
+    Recommendation: "Ik heb de afgelopen 3 jaar met Ronny samengewerkt aan KA ICT-systemen (Intune, MS365, Entra ID, Docker, automatisering van monitoring, enz.). Hij levert altijd werkende oplossingen, is proactief bij acute problemen en heeft diepe Linux- en OSS-kennis. Zijn nieuwsgierigheid naar nieuwe technologieën (AI, home automation, monitoring) zorgt ervoor dat hij nieuwe systemen snel beheerst. Ronny is een betrouwbare, hardwerkende engineer en een uitstekende teamspeler."
+
   - Name: "Chris Dorsman - Ervaren Python, Penguin & Whale Whisperer"
     Recommendation: "“Wat je ziet, is wat je krijgt” is de uitdrukking die in mij opkomt wanneer ik aan Ronny denk. Ik had het genoegen een jaar met Ronny samen te werken bij het SC-Campus/RIVM Linux team waar hij interim Area Product Owner/Senior Linux engineer was en ik senior Linux Engineer. Tijdens dit jaar hadden we samen te maken met behoorlijk pittige en gespannen projecten binnen het COVID19-programma, waar we bijna onmogelijke projecten uitvoerden (en meestal slaagden). Afgezien van zijn humor is Ronny een van de meest hardwerkende, maar ook meest kundige en eerlijke personen die ik ken. Hij zou een grote aanwinst zijn voor elke technische en teamleider positie."
 
