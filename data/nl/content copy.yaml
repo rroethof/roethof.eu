@@ -27,7 +27,6 @@ Profile: >
   diepgaande hands-on ervaring en richt zich op betrouwbare, veilige, schaalbare en
   vendor-onafhankelijke infrastructuur.
 
-
 Experience:
   - Employer: "SPIE Data Solutions B.V."
     Id: SPIE
@@ -41,23 +40,19 @@ Experience:
           business-unitniveau, naast een brede technische verantwoordelijkheid voor infrastructuur,
           security, open source, high availability en architectuur.
         Detailssummup:
-          - "Ontwerpt en bouwt infrastructuur als code met Ansible voor VMware en migreert dit naar Proxmox en HPE-hypervisor-platformen."
-          - "Provisioneert Debian VM's met Packer en Terraform, geïntegreerd met Ansible voor configuratiebeheer en security-hardening."
-          - "Automatiseert security-hardening en compliance-checks (ISO 27001/27002, NIS2) via Ansible playbooks, als continuering van het bij AnyLinQ opgezette werk."
-          - "Fungeert als Business Unit Security Officer met CISO-verantwoordelijkheid, gebouwd op zelf ontworpen en geautomatiseerde infrastructuur."
-          - "Beoordeelt en verbetert technische ontwerpen op security, betrouwbaarheid en beheerbaarheid, vanuit eigen hands-on ervaring met de onderliggende platformen."
-          - "Adviseert management over securitystrategie, met technische onderbouwing uit zelf gebouwde en beheerde omgevingen."
+          - "Functioneert als Business Unit Security Officer en vervult daarmee de CISO-verantwoordelijkheid op business-unitniveau."
+          - "Adviseert management en teams over securitystrategie, risico's en informatiebeveiliging."
+          - "Fungeert als technisch geweten bij complexe infrastructuur-, security- en architectuurvraagstukken."
+          - "Adviseert over open-source, vendor-onafhankelijke en high-availability oplossingen."
+          - "Beoordeelt technische ontwerpen en oplossingen op security, betrouwbaarheid, beheerbaarheid en lange-termijnimpact."
+          - "Verbindt security governance met hands-on infrastructure engineering en technische architectuur."
         Badges:
           - "Lead Platform Architect"
           - "Business Unit Security Officer"
           - "ISO27001"
           - "ISO27002"
           - "NIS2"
-          - "VMware"
           - "Proxmox"
-          - "Terraform"
-          - "Packer"
-          - "Ansible"
           - "High Availability"
           - "Open Source"
           - "GDPR"
@@ -74,16 +69,14 @@ Experience:
           IT-infrastructuur. Combineerde security leadership met hands-on engineering,
           infrastructuurarchitectuur, DevOps en risk-based security.
         Detailssummup:
-          - "Provisioneerde Debian VM's met Packer en Terraform, geïntegreerd met Ansible voor configuratiebeheer en security-hardening."
-          - "Ontwierp en bouwde infrastructuur als code met Ansible voor virtualisatie, networking en cloud-omgevingen."
-          - "Automatiseerde security-hardening en compliance-checks (ISO 27001/27002, NIS2) via Ansible playbooks."
-          - "Ontwierp en beheerde veilige, betrouwbare IT-infrastructuur, met eindverantwoordelijkheid voor informatiebeveiliging en governance."
-          - "Voerde security assessments en pentests uit en vertaalde bevindingen naar concrete technische verbeteringen."
+          - "Ontwikkelde en implementeerde securitybeleid, technische beveiligingsmaatregelen en governance."
+          - "Borgde ISO 27001 / 27002, NIS2 en privacyvereisten in processen en technische infrastructuur."
+          - "Ontwierp en beheerde veilige en betrouwbare IT-infrastructuur, inclusief virtualisatie, networking en cloud."
+          - "Combineerde security governance met hands-on infrastructure engineering en automation."
+          - "Voerde security assessments en pentests uit en vertaalde bevindingen naar concrete technische verbeteringen."  
         Badges:
           - "VMware"
           - "Proxmox"
-          - "Terraform"
-          - "Packer"
           - "Debian"
           - "CentOS"
           - "FreeBSD"
@@ -96,6 +89,7 @@ Experience:
           - "ISO27001"
           - "ISO27002"
           - "NIS2"
+
       - Title: "Security Consultant / Pentester"
         Date: "nov 2021 – jun 2022"
         Details: "Voerde pentests uit op websites, infrastructuren en applicaties, resulterend in veilige klantomgevingen."
